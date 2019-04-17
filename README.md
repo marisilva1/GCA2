@@ -27,3 +27,5 @@ TensorFlow: artificial intelligence software
 - TensorFlow still operates with logistic regression - flattening, learning rate, weights, biases, etc. Multiple, defined operations (rather than just the one that we did for cat identification) take in a tensor (a multidimensional array) as an input, and output a tensor as well.
 - TensorFlow can be “wrapped” in a nice interface that helps to visual the cost functions, variability in biases and weights with time, and graph the flow of tensors (hence TensorFlow) with graphs like the image below:
 - Looks like TensorFlow uses softPlus - in retrospect this would have been a good one to try.
+
+![alt text](https://www.techspot.com/images2/news/bigimage/2015/11/2015-11-09-image.gif)
