@@ -1,6 +1,7 @@
 # What we did to improve the prediction (including limitations):
 Change the activation function (bad idea - sigmoid is the only useful activation function, really)
 - tried reLU, softPlus. Both were made by creating new functions in the sigmoid block.
+
 Added 1,000 images from the CalTech training dataset
 - We attempted to add more than 1,000 images, but colaboratory continued to crash due to a lack of RAM.
 - At first, adding images to the training set seemed to make the model worse - the cost increased, and the training accuracy and test accuracy decreased.
