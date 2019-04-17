@@ -1,14 +1,17 @@
 # What we did to improve the prediction (including limitations):
 Change the activation function (bad idea - sigmoid is the only useful activation function, really)
+
 Added 1,000 images from the CalTech training dataset
 - We attempted to add more than 1,000 images, but colaboratory continued to crash due to a lack of RAM.
 - At first, adding images to the training set seemed to make the model worse - the cost increased, and the training accuracy and test accuracy decreased.
 - However, in order to take full advantage of the extra images, more iterations must be added. With 1,000 more iterations, the test accuracy increased, but the cost still remained higher than original and the training accuracy remained lower than the initial.
 - We then increased the number of iterations to 10,000, which decreased the cost significantly and increased the test accuracy from 70% to 78%. For 10,000 iterations, overfitting occurred (see part 3b). 
+
 Changing number of iterations
 - An increase in iterations leads to a decrease in cost; of course, more iterations takes more time.
 Changing the batch size
 - We attempted to use a smaller batch size for each iteration, but we ran into errors that we could not figure out with the indexing and concatenation of the X and Y arrays.
+
 Mess with learning rate (jumping around in the parabola)
 - The larger the learning rate, the worse it got
 - But if it was too small…
