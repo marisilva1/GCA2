@@ -1,4 +1,4 @@
-**What we did to improve the prediction (including limitations):**
+***What we did to improve the prediction (including limitations):***
 Change the activation function (bad idea - sigmoid is the only useful activation function, really)
 Added 1,000 images from the CalTech training dataset
 We attempted to add more than 1,000 images, but colaboratory continued to crash due to a lack of RAM.
@@ -16,7 +16,7 @@ leads to “overfitting”.
 When overfitting occurs, the model is overtraining for the training set and then ends up being less accurate for the testing set.
 Some values would “break” the code - potentially linked to the cost fxn
 
-**Discuss how image recognition is done by data scientists today.**
+***Discuss how image recognition is done by data scientists today.***
 TensorFlow: artificial intelligence software
 “Neural network:” operates in a way that mimics the human brain in learning and reasoning. End goal is for these networks to detect and interpret patterns/correlations
 Many, many, many layers of choices are applied to narrow down the characteristics of an image, for different objects in the image, compared to an entire database of already learned elements of different classified images.
